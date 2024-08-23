@@ -1,0 +1,81 @@
+@import "./common.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+  .main__container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+      font-style: normal;
+  }
+  ul,li {
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    color: #A1B5BB;
+  }
+  .router-link-active {
+    color: #e5edf0;
+    text-decoration: underline;
+    text-decoration-color: #e5edf0;
+    
+  }
+
+  @mixin defaultButtom {
+  border-radius:   $borderRadius30;
+  border: none;
+  }
+  @mixin TextRegular12 {
+    font-size: $fz12;
+    
+    font-weight: $fw-300;
+    font-family: $fontFamily;
+  }
+  @mixin TextRegular14 {
+    font-size: $fz14;
+    
+    font-weight: $fw-400;
+    font-family: $fontFamily;
+  }
+  @mixin TextRegular16 {
+    font-size: $fz16;
+    font-weight: $fw-400;
+    font-family: $fontFamily;
+  }
+  @mixin TextRegular18 {
+  
+    font-family: $fontFamily;
+    font-size: $fz18;
+    font-weight: $fw-400;
+  }
+  @mixin TextRegular24 {
+    font-size: $fz24;
+    font-weight: $fw-700;
+    font-family: $fontFamily;
+  }
+  @mixin TextRegular48 {
+    font-size: $fz48;
+    font-weight: $fw-700;
+    font-family: $fontFamily;
+  }
+  @mixin TextRegular64 {
+  
+    font-family: $fontFamily;
+    font-size: $fz64;
+    font-weight: $fw-700;
+  }
+
+@mixin TextSchool24 {
+  font-size: $fz24;
+  font-family: $fontSchool;
+  font-weight: $fw-400;
+}
